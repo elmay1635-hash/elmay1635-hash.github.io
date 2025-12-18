@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Diri | Personal Profile</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="background-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+    </div>
+
+    <div class="container">
+        <!-- Sidebar / Profile Image Section -->
+        <aside class="profile-section">
+            <div class="profile-img-container">
+                <img src="images/1000263377.jpg" alt="Profile Picture" class="profile-img">
+            </div>
+            <h1 class="name">Elmayana</h1>
+            <p class="status">Mahasiswa</p>
+
+            <div class="social-links" style="margin-top: 2rem; display: flex; gap: 1rem;">
+                <i class="fab fa-instagram" style="font-size: 1.5rem; color: white; cursor: pointer;"></i>
+                <i class="fab fa-linkedin" style="font-size: 1.5rem; color: white; cursor: pointer;"></i>
+                <i class="fas fa-envelope" style="font-size: 1.5rem; color: white; cursor: pointer;"></i>
+            </div>
+        </aside>
+
+        <!-- Main Content Info Section -->
+        <main class="info-section">
+
+            <div class="info-card">
+                <h2><i class="fas fa-user-circle"></i> Informasi Pribadi</h2>
+                <div class="details-grid">
+                    <div class="detail-item">
+                        <span class="label">Alamat,Domiisli</span>
+                        <span class="value">lombok timur, Indonesia</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="label">Tanggal Lahir</span>
+                        <span class="value" id="dob-display">2005-04-30</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="label">Usia</span>
+                        <span class="value" id="age-display">- 20</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="label">Agama</span>
+                        <span class="value">Islam</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="label">Tinggi Badan</span>
+                        <span class="value">154 cm</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="label">Berat Badan</span>
+                        <span class="value">50 kg</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="info-card">
+                <h2><i class="fas fa-graduation-cap"></i> Pendidikan</h2>
+                <ul class="education-list">
+                    <li>
+                        <div class="edu-year">2021 - Sekarang</div>
+                        <div class="edu-school">Universitas [HAMZANWADI]</div>
+                        <div class="edu-desc">Jurusan [Sistem informasi]</div>
+                    </li>
+                    <li>
+                        <div class="edu-year">2018 - 2021</div>
+                        <div class="edu-school">SMA [SMA ISLAM ULIL ALBAAB]</div>
+                        <div class="edu-desc">Jurusan Bahasa</div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="info-card">
+                <h2><i class="fas fa-id-card"></i> Identitas Akademik</h2>
+                <div class="details-grid">
+                    <div class="detail-item">
+                        <span class="label">Universitas</span>
+                        <span class="value">[HAMZANWADI]</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="label">NIM</span>
+                        <span class="value">[NIM 240601051]</span>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
